@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice Express | Indian Fast Food</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Spice<span>Express</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#locations">Locations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Experience Authentic Indian Flavors</h1>
+                <p>Delicious, quick, and authentic Indian cuisine served in minutes. Taste the rich heritage of India with our carefully crafted recipes.</p>
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn btn-primary">View Menu</a>
+                    <a href="#locations" class="btn btn-outline">Find Locations</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-5" id="about">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <h4>Authentic Flavors</h4>
+                        <p>Our recipes are crafted by expert chefs using traditional spices imported directly from India.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h4>Quick Service</h4>
+                        <p>Get your favorite Indian dishes served hot and fresh in under 10 minutes.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Fresh Ingredients</h4>
+                        <p>We use locally-sourced fresh ingredients to create healthy and delicious meals every day.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="py-5" id="menu">
+        <div class="container">
+            <h2 class="section-title">Our Popular Dishes</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="assets/images/butterchickemn.jpeg" alt="Butter Chicken">
+                        </div>
+                        <h4>Butter Chicken</h4>
+                        <p>Tender chicken cooked in a rich tomato and butter sauce with aromatic spices.</p>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <span class="price">₹249</span>
+                            <button class="btn btn-sm btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="assets/images/panner tikka.jpeg" alt="Paneer Tikka">
+                        </div>
+                        <h4>Paneer Tikka</h4>
+                        <p>Chunks of paneer marinated in spices and grilled to perfection.</p>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <span class="price">₹199</span>
+                            <button class="btn btn-sm btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="assets/images/cb.jpeg" alt="Chicken Biryani">
+                        </div>
+                        <h4>Chicken Biryani</h4>
+                        <p>Fragrant basmati rice cooked with tender chicken pieces and aromatic spices.</p>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <span class="price">₹299</span>
+                            <button class="btn btn-sm btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="assets/images/md.jpg" alt="Masala Dosa">
+                        </div>
+                        <h4>Masala Dosa</h4>
+                        <p>Crispy rice pancake filled with spiced potato filling, served with sambar and chutney.</p>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <span class="price">₹149</span>
+                            <button class="btn btn-sm btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="assets/images/cm.jpg" alt="Chana Masala">
+                        </div>
+                        <h4>Chana Masala</h4>
+                        <p>Chickpeas cooked in a spicy tomato gravy with Indian spices.</p>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <span class="price">₹179</span>
+                            <button class="btn btn-sm btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="menu-item">
+                        <div class="menu-img">
+                            <img src="assets/images/gn.avif" alt="Naan Bread">
+                        </div>
+                        <h4>Garlic Naan</h4>
+                        <p>Soft bread with garlic flavor, baked in a tandoor oven.</p>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <span class="price">₹69</span>
+                            <button class="btn btn-sm btn-primary add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-lg btn-primary" id="viewFullMenu">View Full Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="row" id="testimonials">
+                <div class="col-md-4">
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>"The flavors are incredible! Tastes just like the food I had in Delhi. Fast service and amazing quality."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div>
+                                <h5>Priya Sharma</h5>
+                                <small>Delhi Native</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>"I love the quick service without compromising on taste. The butter chicken is to die for!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            
+                            <div>
+                                <h5>Raj Patel</h5>
+                                <small>Food Blogger</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>"As a vegetarian, I appreciate the variety of options. The paneer dishes are absolutely delicious!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            
+                            <div>
+                                <h5>Amit Singh</h5>
+                                <small>Regular Customer</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Locations Section -->
+    <section class="py-5" id="locations">
+        <div class="container">
+            <h2 class="section-title">Our Locations</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="location-card">
+                        
+                        <div class="location-details">
+                            <h4>Mumbai</h4>
+                            <p><i class="fas fa-map-marker-alt"></i> 123 Marine Drive, Mumbai</p>
+                            <p><i class="fas fa-phone"></i> +91 2234567890</p>
+                            <p><i class="fas fa-clock"></i> 11:00 AM - 10:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="location-card">
+                        
+                        <div class="location-details">
+                            <h4>Delhi</h4>
+                            <p><i class="fas fa-map-marker-alt"></i> 456 Connaught Place, Delhi</p>
+                            <p><i class="fas fa-phone"></i> +91 1134567890</p>
+                            <p><i class="fas fa-clock"></i> 11:00 AM - 10:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="location-card">
+                        
+                        <div class="location-details">
+                            <h4>Bangalore</h4>
+                            <p><i class="fas fa-map-marker-alt"></i> 789 MG Road, Bangalore</p>
+                            <p><i class="fas fa-phone"></i> +91 8034567890</p>
+                            <p><i class="fas fa-clock"></i> 11:00 AM - 10:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Order Online and Get 20% Off on Your First Order</h2>
+            <p class="mb-4">Download our app and enjoy exclusive offers and rewards.</p>
+            <div>
+                <a href="#" class="btn btn-primary me-3"><i class="fab fa-apple me-2"></i> App Store</a>
+                <a href="#" class="btn btn-primary"><i class="fab fa-google-play me-2"></i> Play Store</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-5" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" placeholder="Your Phone">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <h4>Corporate Headquarters</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Business Park, Mumbai, India</p>
+                        <p><i class="fas fa-phone"></i> +91 22 4567 8900</p>
+                        <p><i class="fas fa-envelope"></i> info@spiceexpress.com</p>
+                        <h4 class="mt-4">Business Hours</h4>
+                        <p><i class="fas fa-clock"></i> Monday to Sunday: 11:00 AM - 10:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="footer-title">SpiceExpress</h4>
+                    <p>Bringing the authentic taste of India to you, with quick service and high-quality ingredients.</p>
+                    <div class="social-icons mt-4">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About Us</a>
+                        <a href="#menu">Menu</a>
+                        <a href="#locations">Locations</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="footer-title">More Info</h4>
+                    <div class="footer-links">
+                        <a href="#">Franchising</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Terms & Conditions</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">FAQs</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="footer-title">Newsletter</h4>
+                    <p>Subscribe to our newsletter for offers and updates.</p>
+                    <form class="mt-3">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="text-center copyright">
+                <p>&copy; 2025 SpiceExpress. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
